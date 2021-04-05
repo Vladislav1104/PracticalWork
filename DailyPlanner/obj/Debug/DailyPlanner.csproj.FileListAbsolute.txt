@@ -1,0 +1,12 @@
+C:\Users\Vlad\source\repos\WindowsFormsApp1\bin\Debug\DailyPlanner.mdf
+C:\Users\Vlad\source\repos\WindowsFormsApp1\bin\Debug\DailyPlanner_log.ldf
+C:\Users\Vlad\source\repos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Vlad\source\repos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Vlad\source\repos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Vlad\source\repos\WindowsFormsApp1\obj\Debug\DailyPlanner.csprojAssemblyReference.cache
+C:\Users\Vlad\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Vlad\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Vlad\source\repos\WindowsFormsApp1\obj\Debug\DailyPlanner.csproj.GenerateResource.cache
+C:\Users\Vlad\source\repos\WindowsFormsApp1\obj\Debug\DailyPlanner.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Vlad\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
