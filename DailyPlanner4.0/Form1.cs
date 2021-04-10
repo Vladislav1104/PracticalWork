@@ -38,11 +38,6 @@ namespace DailyPlanner3._0
             GetList();
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             cmd = new SqlCommand();
@@ -55,7 +50,8 @@ namespace DailyPlanner3._0
                 !string.IsNullOrEmpty(textBox3.Text) && !string.IsNullOrWhiteSpace(textBox3.Text) &&
                 !string.IsNullOrEmpty(comboBox1.Text) && !string.IsNullOrWhiteSpace(comboBox1.Text))
             {
-                cmd.CommandText = "insert into DailyPlannerTable(Task,Date,Description,Type) values ('" + textBox1.Text + "','" + dateTimePicker2.Value.ToShortDateString() + "','" + textBox3.Text + "', '" + comboBox1.Text + "')";
+                cmd.CommandText = "insert into DailyPlannerTable(Task,Date,Description,Type) values " +
+                "('" + textBox1.Text + "','" + dateTimePicker2.Value.ToShortDateString() + "','" + textBox3.Text + "', '" + comboBox1.Text + "')";
                 cmd.ExecuteNonQuery();
             }
             else 
@@ -80,7 +76,8 @@ namespace DailyPlanner3._0
                 !string.IsNullOrEmpty(textBox7.Text) && !string.IsNullOrWhiteSpace(textBox7.Text) &&
                 !string.IsNullOrEmpty(comboBox2.Text) && !string.IsNullOrWhiteSpace(comboBox2.Text))
             {
-                cmd.CommandText = "update DailyPlannerTable set Task='" + textBox4.Text + "', Date='" + dateTimePicker1.Value.ToShortDateString() + "', Description='" + textBox6.Text + "', Type = '" + comboBox2.Text + "' where id=" + textBox7.Text + "";
+                cmd.CommandText = "update DailyPlannerTable set Task='" + textBox4.Text + "', Date='" + dateTimePicker1.Value.ToShortDateString() + 
+                "', Description='" + textBox6.Text + "', Type = '" + comboBox2.Text + "' where id=" + textBox7.Text + "";
                 cmd.ExecuteNonQuery();
             }
             else 
